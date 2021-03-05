@@ -37,6 +37,7 @@
                         <TextField fx:id="txtMa2" layoutX="326.0" layoutY="80.0" onKeyReleased="#calculerMa2" prefHeight="27.0" prefWidth="182.0" text="1" />
                         <ComboBox fx:id="cboMa1" layoutX="117.0" layoutY="124.0" onAction="#calculerMa1" prefWidth="150.0" />
                         <ComboBox fx:id="cboMa2" layoutX="342.0" layoutY="118.0" onAction="#calculerMa2" prefWidth="150.0" />
+                        <Button layoutX="481.0" layoutY="217.0" mnemonicParsing="false" onAction="#quiter" text="Quiter" />
                      </children>
                   </AnchorPane>
             </content>
@@ -49,6 +50,7 @@
                         <TextField fx:id="txtVo2" layoutX="327.0" layoutY="92.0" onKeyReleased="#calculerVo2" text="1" />
                         <ComboBox fx:id="cboVo1" layoutX="137.0" layoutY="132.0" onAction="#calculerVo1" prefWidth="150.0" />
                         <ComboBox fx:id="cboVo2" layoutX="333.0" layoutY="132.0" onAction="#calculerVo2" prefWidth="150.0" />
+                        <Button layoutX="488.0" layoutY="220.0" mnemonicParsing="false" onAction="#quiter" text="Quiter" />
                      </children>
                   </AnchorPane>
               </content>
@@ -61,6 +63,7 @@
                         <TextField fx:id="txtLo2" layoutX="342.0" layoutY="92.0" onKeyReleased="#calculerLo2" text="1" />
                         <ComboBox fx:id="cboLo1" layoutX="124.0" layoutY="138.0" onAction="#calculerLo1" prefWidth="150.0" />
                         <ComboBox fx:id="cboLo2" layoutX="348.0" layoutY="138.0" onAction="#calculerLo2" prefWidth="150.0" />
+                        <Button layoutX="503.0" layoutY="220.0" mnemonicParsing="false" onAction="#quiter" text="Quiter" />
                      </children>
                   </AnchorPane>
               </content>
@@ -73,6 +76,7 @@
                         <TextField fx:id="txtTe2" layoutX="335.0" layoutY="83.0" onKeyReleased="#calculerTe2" text="1" />
                         <ComboBox fx:id="cboTe1" layoutX="123.0" layoutY="124.0" onAction="#calculerTe1" prefWidth="150.0" />
                         <ComboBox fx:id="cboTe2" layoutX="341.0" layoutY="124.0" onAction="#calculerTe2" prefWidth="150.0" />
+                        <Button layoutX="496.0" layoutY="224.0" mnemonicParsing="false" onAction="#quiter" text="Quiter" />
                      </children>
                   </AnchorPane>
               </content>
@@ -85,6 +89,7 @@
                         <TextField fx:id="txtVi2" layoutX="359.0" layoutY="91.0" onKeyReleased="#calculerVi2" text="1" />
                         <ComboBox fx:id="cboVi1" layoutX="110.0" layoutY="138.0" onAction="#calculerVi1" prefWidth="150.0" />
                         <ComboBox fx:id="cboVi2" layoutX="365.0" layoutY="138.0" onAction="#calculerVi2" prefWidth="150.0" />
+                        <Button layoutX="515.0" layoutY="217.0" mnemonicParsing="false" onAction="#quiter" text="Quiter" />
                      </children>
                   </AnchorPane>
               </content>
